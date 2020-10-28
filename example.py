@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
 
-print('Hello World')
-
-
+def add(a: int, b: int) -> int:
+  return a + b
