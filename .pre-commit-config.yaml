@@ -6,7 +6,6 @@ repos:
     -   id: check-json
     -   id: check-yaml
     -   id: debug-statements
-    -   id: 
     -   id: trailing-whitespace
 -   repo: https://gitlab.com/pycqa/flake8
     rev: 3.8.4
