@@ -19,4 +19,4 @@ jobs:
     - name: Install Dependencies
       run: pip install -r requirements.txt
     - name: Run Pytest with coverage
-      run: python -m pytest -s -v --cov=com
+      run: python -m pytest -s -v --cov
