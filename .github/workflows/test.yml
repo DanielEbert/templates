@@ -18,5 +18,5 @@ jobs:
         python-version: 3.8
     - name: Install Dependencies
       run: pip install -r requirements.txt
-    - name: Run Pytest
-      run: python -m pytest -s -v
+    - name: Run Pytest with coverage
+      run: coverage run -m pytest -s -v
