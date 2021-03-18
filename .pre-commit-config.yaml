@@ -8,7 +8,7 @@ repos:
     -   id: debug-statements
     -   id: trailing-whitespace
 -   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.4
+    rev: 3.9.0
     hooks:
     -   id: flake8
         additional_dependencies: [flake8-typing-imports==1.10.0]
